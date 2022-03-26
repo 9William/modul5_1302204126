@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace modul5_1302204126
 {
-    internal class Program
+    internal class Program 
     {
         static void Main(string[] args)
         {
             //panggil object
-            SayaTubeVideo f1 = new SayaTubeVideo("Review Film Titanic oleh Gerry William Mathew Kurniawan");
-            SayaTubeVideo f2 = new SayaTubeVideo("Review Film Spedermen oleh Gerry William Mathew Kurniawan");
+            SayaTubeVideo f1 = new SayaTubeVideo("");
+            SayaTubeVideo f2 = new SayaTubeVideo("Review Film Spedermen oleh Gerry William Mathew");
             SayaTubeVideo f3 = new SayaTubeVideo("Review Film Betmen oleh Gerry William Mathew Kurniawan");
             SayaTubeVideo f4 = new SayaTubeVideo("Review Film Spedermen2 oleh Gerry William Mathew Kurniawan");
             SayaTubeVideo f5 = new SayaTubeVideo("Review Film Betmen2 oleh Gerry William Mathew Kurniawan");
@@ -48,6 +48,7 @@ namespace modul5_1302204126
             ss.AddVideo(f10);
 
             f1.PrintVideoDetails();
+            f2.PrintVideoDetails();
 
             ss.PrintAllVideoPlaycount();
         }
